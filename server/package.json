@@ -1,0 +1,12 @@
+{
+  "name": "qazi-gun-node",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "gun": "^0.2020.1235"
+  }
+}

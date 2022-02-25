@@ -1,0 +1,72 @@
+.chatHeader {
+  width: 100%;
+  background: var(--light-grey);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #2022256e;
+  z-index: 10;
+}
+
+.roomNameContainer {
+  display: flex;
+  align-items: center;
+  border-width: 2px;
+  border-color: var(--light-grey);
+  flex: 1;
+}
+
+.svg {
+  width: 25px;
+  filter: invert(1);
+  opacity: 0.6;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.title {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.chatHeaderStatus {
+  width: 16px;
+  height: 16px;
+  border-radius: 41px;
+  left: 80px;
+}
+
+.headerIconsContainer {
+  display: flex;
+  align-items: center;
+}
+
+.headerItem {
+  margin-right: 10px;
+}
+
+.connectWallet {
+  margin-right: 10px;
+  background-color: #5a65f1;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.connectWallet:hover {
+  background-color: #4149a9;
+}
+
+.connectedWallet {
+  margin-right: 10px;
+  background-color: #2e3136;
+  padding: 8px;
+  border-radius: 55px;
+  border: 1px solid #101113;
+  display: flex;
+  align-items: center;
+}
+.separator {
+  margin: 0 10px;
+}

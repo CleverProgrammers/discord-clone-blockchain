@@ -1,0 +1,33 @@
+.messageCard {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.messageAvatarContainer {
+  margin-right: 20px;
+}
+
+.messageAvatar {
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+}
+
+.messageDetails {
+  display: flex;
+  align-items: center;
+}
+
+.sender {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.timestamp {
+  opacity: 0.4;
+}
+
+.messageText {
+  color: #c1c1c1;
+  max-width: 800px;
+}

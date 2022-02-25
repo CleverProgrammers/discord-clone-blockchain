@@ -1,0 +1,43 @@
+.chatInputContainer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.chatInputWrapper {
+  width: 83%;
+  margin-left: 35px;
+  height: 44px;
+  background: #40444b;
+  padding: 0 15px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chatInput {
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  outline: none;
+  margin-top: 3px;
+  resize: none;
+  height: 90%;
+}
+
+.svgContainer {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.svg {
+  width: 25px;
+  filter: invert(1);
+  opacity: 0.6;
+  cursor: pointer;
+}
